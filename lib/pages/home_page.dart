@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
     return Center(
       child: Scaffold(
         appBar: AppBar(
-          title: Text("Online Shop"),
+          title: Text("Online Shop",style: TextStyle(color:Colors.white),),
           centerTitle: true,
         ),
         body: Center(
